@@ -1,0 +1,107 @@
+/* 
+Wrts-Dark is licensed under MIT
+https://github.com/Derkades/Wrts-Dark/
+*/
+
+body {
+  background-color: #171717;
+}
+
+.card, .login-wrap, .mobile-app-container, .publisher-section, .navbar {
+  background-color: #333 !important;
+}
+
+.progress {
+  background-color: #222;
+}
+
+p, h1, h2, h3, h4, h5, h6, a,
+label, strong, li, td, .table-row, 
+.score_details, .answer_count, 
+.block, 
+.nav, 
+.selected-number, .selected-text, 
+.active,
+.tabular__column, 
+.guiding-text,
+.button-text, 
+.share-block,
+.fa {
+  color: white !important;
+}
+
+.word .input-group .input-group-addon {
+  color: white;
+  border-color: white !important;
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-right: none !important;
+}
+
+/* Verberg dingen die je toch niet kan gebruiken */
+.disabled-trigger, .flash-word-speed {
+  display: none;
+}
+
+.ugly-plan-information,
+.notifications,
+.publisher-list-form,
+.exercice-info-center, 
+.exercice-info-right,
+.speechlocale-trigger,
+.button-radio img {
+  display: none !important;
+}
+
+input {
+  background-color: #555 !important;
+  color: white !important;
+}
+
+.new_search_term input {
+  border: none !important;
+}
+
+.new_search_term, 
+.input-group-addon, 
+.dropdown ul, 
+.dropdown ul li a {
+  background-color: #555 !important;
+  border: none !important;
+}
+
+.answergroup .head {
+  color: #333 !important;
+}
+
+footer {
+  display: none;
+}
+
+/* Advertenties weg */
+#advertisement-container,
+#advertisement-container2 {
+  display: none !important;
+}
+
+tr {
+  background-color: #333;
+}
+
+.card-sub-heading, .result-container, .dropdown-menu, .breadcrumb, .btn-instagram {
+  background-color: #666 !important;
+}
+
+.add-image, .js-delete-row {
+  background-color: white !important;
+}
+
+.add-image .icon-picture,
+.js-delete-row .fa-close {
+  color: black !important;
+}
+
+.navbar {
+  z-index: 1000;
+  border-radius: 0px;
+}
